@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+            .container {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                grid-gap: 1rem;
+            }
+
+            .card {
+                background-color: #fff;
+                padding: 1rem;
+                border-radius: 0.5rem;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                display: grid;
+                grid-template-rows: auto auto 1fr;
+                row-gap: 25px;
+            }
+
+            .card img {
+                width: 100%;
+                height: auto;
+                border-radius: 0.25rem;
+            }
+
+            .card h3 {
+                font-size: 1.25rem;
+                font-weight: bold;
+            }
+
+            .card p {
+                font-size: 1rem;
+                color: #666;
+                overflow: hidden;
+            }
+
+            .card button {
+                display: block;
+                margin: 0 auto;
+                padding: 0.5rem 1rem;
+                border: none;
+                border-radius: 0.25rem;
+                background-color: #007bff;
+                color: #fff;
+                font-size: 1rem;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            .card button:hover {
+                background-color: #0069d9;
+            }
+        </style>
+        <h1>サブグリッドの練習</h1>
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/120x140" alt="Placeholder Image">
+            <h3>Card TitleCard TitleCard TitleCard Title</h3>
+            <p>Card Description 1Card Description 1Car</p>
+            <button>Learn More</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150x240" alt="Placeholder Image">
+            <h3>Card Title</h3>
+            <p>Card2Card2Card2Card2Card2 Description Card Description Card Description Card Description Card Description Card DescriptionCard Description Card Description Card Description</p>
+            <button>Learn More</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <h3>Card TitleCard TitleCard TitleCard TitleCard Titld TitleCard TitleCard TitleCard TitleCard TitleCard TitleCard TitleCard TitleCard Title</h3>
+            <p>Card Description 3</p>
+            <button>Learn More</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <h3>Card Title</h3>
+            <p>Card Description 4Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description </p>
+            <button>Learn More</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <h3>Card Title</h3>
+            <p>Card Description 5Card Description </p>
+            <button>Learn More</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <h3>Card Title</h3>
+            <p>Card Description 6Card Description Card Description Card Description </p>
+            <button>Learn More</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <h3>Card Title</h3>
+            <p>Card Description Card Description 7</p>
+            <button>Learn More</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <h3>Card Title</h3>
+            <p>Card Description 8</p>
+            <button>Learn More</button>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <h3>Card Title</h3>
+            <p>Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description Card Description 9</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
