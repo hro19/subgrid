@@ -16,3 +16,8 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+
+test("has title_screen", async ({ page }, test) => {
+  await page.goto("https://www.irasutoya.com/");
+  await page.screenshot({ path: "screenshot.png" });
+});
